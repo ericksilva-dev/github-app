@@ -20,11 +20,26 @@ class InitialCoordinator: CoordinatorProtocol {
         let controller = createAppTabBarViewController()
         navigationController.pushViewController(controller, animated: true)
     }
+    
+    func createDetailUserViewController(_ user: User) -> DetailUserViewController {
+        let presenter = DetailUserPresenter()
+        let controller = DetailUserViewController(presenter: presenter, user: user)
+        return controller
+    }
 }
 // MARK: - AppTabBarViewController
 extension InitialCoordinator {
     private func createAppTabBarViewController() -> AppTabBarViewController {
         let controller = AppTabBarViewController()
+        controller.delegateTabBar = self
         return controller
+    }
+}
+
+// MARK: - AppTabBarViewControllerDelegate
+extension InitialCoordinator: AppTabBarViewControllerDelegate {
+    func wantsToDetailUser(user: User) {
+        let controller = createDetailUserViewController(user)
+        navigationController.pushViewController(controller, animated: true)
     }
 }

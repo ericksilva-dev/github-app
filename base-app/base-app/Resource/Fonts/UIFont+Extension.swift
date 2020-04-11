@@ -32,4 +32,10 @@ extension UIFont {
     static var subTitleLargeBold: UIFont {
         return customFontDefault(familyName: FontFamily.Roboto.bold, size: 18)
     }
+    static var mediumString: UIFont {
+        return customFontDefault(familyName: FontFamily.Roboto.bold, size: 16)
+    }
+    static var smallString: UIFont {
+        return customFontDefault(familyName: FontFamily.Roboto.bold, size: 12)
+    }
 }

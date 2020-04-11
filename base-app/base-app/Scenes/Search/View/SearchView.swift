@@ -10,7 +10,7 @@ import UIKit
 
 class SearchView: UIView {
     
-    var didTapSearch: (() -> Void)?
+    var didTapSearch: ((String?) -> Void)?
     
     private let logoApp: UIImageView = {
         let imageView = UIImageView()
@@ -123,6 +123,6 @@ extension SearchView {
     }
     
     @objc func btnSearchHandler() {
-        didTapSearch?()
+        didTapSearch?(inputSearch.text)
     }
 }

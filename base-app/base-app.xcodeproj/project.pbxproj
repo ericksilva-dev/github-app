@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F41CB61024307076002BA804 /* AppTabBarProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41CB60F24307076002BA804 /* AppTabBarProtocols.swift */; };
+		F44C909D2429A17B00458433 /* Image+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44C909C2429A17B00458433 /* Image+Extension.swift */; };
+		F44C909F2429B28A00458433 /* ListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44C909E2429B28A00458433 /* ListPresenter.swift */; };
+		F44C90A12429B29700458433 /* ListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44C90A02429B29700458433 /* ListProtocols.swift */; };
+		F44C90A32429B57200458433 /* AllUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44C90A22429B57200458433 /* AllUsers.swift */; };
+		F44C90A52429B65A00458433 /* ListRepositore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44C90A42429B65A00458433 /* ListRepositore.swift */; };
+		F4BB04AA2440F8EA005F2133 /* DetailUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB04A92440F8EA005F2133 /* DetailUserViewController.swift */; };
+		F4BB04AC2440F8F8005F2133 /* DetailUserPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB04AB2440F8F8005F2133 /* DetailUserPresenter.swift */; };
+		F4BB04AE2440F907005F2133 /* DetailUserProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB04AD2440F907005F2133 /* DetailUserProtocols.swift */; };
+		F4BB04B12440F93A005F2133 /* DetailUserHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB04B02440F93A005F2133 /* DetailUserHeader.swift */; };
+		F4BB04B32440F94D005F2133 /* DetailUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB04B22440F94D005F2133 /* DetailUserView.swift */; };
+		F4BB04B62441034A005F2133 /* DetailUserDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB04B52441034A005F2133 /* DetailUserDataSource.swift */; };
+		F4BB04B8244103F5005F2133 /* RepositoresUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB04B7244103F5005F2133 /* RepositoresUser.swift */; };
+		F4BB04BA24411690005F2133 /* DetailUserRepositore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB04B924411690005F2133 /* DetailUserRepositore.swift */; };
+		F4BB04BE24422540005F2133 /* DetailUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB04BD24422540005F2133 /* DetailUserCell.swift */; };
 		F4D2BB722425A97600BE8608 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D2BB712425A97600BE8608 /* AppDelegate.swift */; };
 		F4D2BB742425A97600BE8608 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D2BB732425A97600BE8608 /* SceneDelegate.swift */; };
 		F4D2BB762425A97600BE8608 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D2BB752425A97600BE8608 /* SearchViewController.swift */; };
@@ -29,6 +44,18 @@
 		F4D2BBCC2425C63A00BE8608 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D2BBCB2425C63A00BE8608 /* UIButton+Extension.swift */; };
 		F4D2BBCF2425CED800BE8608 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D2BBCE2425CED800BE8608 /* ListViewController.swift */; };
 		F4D2BBD12425D12E00BE8608 /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D2BBD02425D12E00BE8608 /* UINavigationController+Extension.swift */; };
+		F4D2BBD3242676ED00BE8608 /* SearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D2BBD2242676ED00BE8608 /* SearchPresenter.swift */; };
+		F4D2BBD52426770300BE8608 /* SearchProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D2BBD42426770300BE8608 /* SearchProtocols.swift */; };
+		F4D2BBD724267B0400BE8608 /* SearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D2BBD624267B0400BE8608 /* SearchRepository.swift */; };
+		F4D2BBD924267D9B00BE8608 /* NetworkServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D2BBD824267D9B00BE8608 /* NetworkServiceProtocol.swift */; };
+		F4D2BBDB24267EB700BE8608 /* NetworkProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D2BBDA24267EB700BE8608 /* NetworkProtocol.swift */; };
+		F4D2BBDD24267F3200BE8608 /* ApiResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D2BBDC24267F3200BE8608 /* ApiResult.swift */; };
+		F4D2BBE02426833300BE8608 /* AppServiceUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D2BBDF2426833300BE8608 /* AppServiceUsers.swift */; };
+		F4D2BBE2242688CF00BE8608 /* AppLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D2BBE1242688CF00BE8608 /* AppLog.swift */; };
+		F4D2BBE524268EF300BE8608 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D2BBE424268EF300BE8608 /* User.swift */; };
+		F4D2BBE7242693C500BE8608 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D2BBE6242693C500BE8608 /* ListView.swift */; };
+		F4D2BBEA2426A88E00BE8608 /* ListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D2BBE92426A88E00BE8608 /* ListDataSource.swift */; };
+		F4D2BBEC2426AA7B00BE8608 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D2BBEB2426AA7B00BE8608 /* ListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +76,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F41CB60F24307076002BA804 /* AppTabBarProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarProtocols.swift; sourceTree = "<group>"; };
+		F44C909C2429A17B00458433 /* Image+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extension.swift"; sourceTree = "<group>"; };
+		F44C909E2429B28A00458433 /* ListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPresenter.swift; sourceTree = "<group>"; };
+		F44C90A02429B29700458433 /* ListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListProtocols.swift; sourceTree = "<group>"; };
+		F44C90A22429B57200458433 /* AllUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllUsers.swift; sourceTree = "<group>"; };
+		F44C90A42429B65A00458433 /* ListRepositore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRepositore.swift; sourceTree = "<group>"; };
+		F4BB04A92440F8EA005F2133 /* DetailUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailUserViewController.swift; sourceTree = "<group>"; };
+		F4BB04AB2440F8F8005F2133 /* DetailUserPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailUserPresenter.swift; sourceTree = "<group>"; };
+		F4BB04AD2440F907005F2133 /* DetailUserProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailUserProtocols.swift; sourceTree = "<group>"; };
+		F4BB04B02440F93A005F2133 /* DetailUserHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailUserHeader.swift; sourceTree = "<group>"; };
+		F4BB04B22440F94D005F2133 /* DetailUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailUserView.swift; sourceTree = "<group>"; };
+		F4BB04B52441034A005F2133 /* DetailUserDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailUserDataSource.swift; sourceTree = "<group>"; };
+		F4BB04B7244103F5005F2133 /* RepositoresUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoresUser.swift; sourceTree = "<group>"; };
+		F4BB04B924411690005F2133 /* DetailUserRepositore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailUserRepositore.swift; sourceTree = "<group>"; };
+		F4BB04BD24422540005F2133 /* DetailUserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailUserCell.swift; sourceTree = "<group>"; };
 		F4D2BB6E2425A97600BE8608 /* base-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "base-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D2BB712425A97600BE8608 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4D2BB732425A97600BE8608 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +119,18 @@
 		F4D2BBCB2425C63A00BE8608 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 		F4D2BBCE2425CED800BE8608 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		F4D2BBD02425D12E00BE8608 /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extension.swift"; sourceTree = "<group>"; };
+		F4D2BBD2242676ED00BE8608 /* SearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPresenter.swift; sourceTree = "<group>"; };
+		F4D2BBD42426770300BE8608 /* SearchProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchProtocols.swift; sourceTree = "<group>"; };
+		F4D2BBD624267B0400BE8608 /* SearchRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepository.swift; sourceTree = "<group>"; };
+		F4D2BBD824267D9B00BE8608 /* NetworkServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceProtocol.swift; sourceTree = "<group>"; };
+		F4D2BBDA24267EB700BE8608 /* NetworkProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProtocol.swift; sourceTree = "<group>"; };
+		F4D2BBDC24267F3200BE8608 /* ApiResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResult.swift; sourceTree = "<group>"; };
+		F4D2BBDF2426833300BE8608 /* AppServiceUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppServiceUsers.swift; sourceTree = "<group>"; };
+		F4D2BBE1242688CF00BE8608 /* AppLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLog.swift; sourceTree = "<group>"; };
+		F4D2BBE424268EF300BE8608 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F4D2BBE6242693C500BE8608 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		F4D2BBE92426A88E00BE8608 /* ListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDataSource.swift; sourceTree = "<group>"; };
+		F4D2BBEB2426AA7B00BE8608 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +158,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F4BB04A82440F8D3005F2133 /* DetailUser */ = {
+			isa = PBXGroup;
+			children = (
+				F4BB04B42441023D005F2133 /* DataSource */,
+				F4BB04AF2440F927005F2133 /* View */,
+				F4BB04A92440F8EA005F2133 /* DetailUserViewController.swift */,
+				F4BB04AB2440F8F8005F2133 /* DetailUserPresenter.swift */,
+				F4BB04AD2440F907005F2133 /* DetailUserProtocols.swift */,
+				F4BB04B924411690005F2133 /* DetailUserRepositore.swift */,
+			);
+			path = DetailUser;
+			sourceTree = "<group>";
+		};
+		F4BB04AF2440F927005F2133 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F4BB04B02440F93A005F2133 /* DetailUserHeader.swift */,
+				F4BB04B22440F94D005F2133 /* DetailUserView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F4BB04B42441023D005F2133 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				F4BB04B52441034A005F2133 /* DetailUserDataSource.swift */,
+				F4BB04BD24422540005F2133 /* DetailUserCell.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
 		F4D2BB652425A97500BE8608 = {
 			isa = PBXGroup;
 			children = (
@@ -127,8 +212,9 @@
 		F4D2BB702425A97600BE8608 /* base-app */ = {
 			isa = PBXGroup;
 			children = (
-				F4D2BBB12425B0B900BE8608 /* Helpers */,
 				F4D2BBA12425A98C00BE8608 /* AppBuilder */,
+				F4D2BBE324268EE400BE8608 /* Models */,
+				F4D2BBB12425B0B900BE8608 /* Helpers */,
 				F4D2BBA22425A9A100BE8608 /* Resource */,
 				F4D2BBA42425AA0300BE8608 /* Network */,
 				F4D2BBA32425A9DC00BE8608 /* Scenes */,
@@ -185,7 +271,9 @@
 				F4D2BBAD2425AD5800BE8608 /* InitialCoordinator.swift */,
 				F4D2BBAA2425AC7F00BE8608 /* ListRepositores */,
 				F4D2BBA92425AC6F00BE8608 /* Search */,
+				F4BB04A82440F8D3005F2133 /* DetailUser */,
 				F4D2BBAF2425AE4500BE8608 /* AppTabBarViewController.swift */,
+				F41CB60F24307076002BA804 /* AppTabBarProtocols.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -193,6 +281,11 @@
 		F4D2BBA42425AA0300BE8608 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				F4D2BBDE2426832400BE8608 /* Services */,
+				F4D2BBD824267D9B00BE8608 /* NetworkServiceProtocol.swift */,
+				F4D2BBDA24267EB700BE8608 /* NetworkProtocol.swift */,
+				F4D2BBDC24267F3200BE8608 /* ApiResult.swift */,
+				F4D2BBE1242688CF00BE8608 /* AppLog.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -202,6 +295,9 @@
 			children = (
 				F4D2BBC52425B7FA00BE8608 /* View */,
 				F4D2BB752425A97600BE8608 /* SearchViewController.swift */,
+				F4D2BBD2242676ED00BE8608 /* SearchPresenter.swift */,
+				F4D2BBD42426770300BE8608 /* SearchProtocols.swift */,
+				F4D2BBD624267B0400BE8608 /* SearchRepository.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -209,8 +305,12 @@
 		F4D2BBAA2425AC7F00BE8608 /* ListRepositores */ = {
 			isa = PBXGroup;
 			children = (
+				F4D2BBE82426A7FD00BE8608 /* DataSource */,
 				F4D2BBCD2425CEC800BE8608 /* View */,
 				F4D2BBCE2425CED800BE8608 /* ListViewController.swift */,
+				F44C909E2429B28A00458433 /* ListPresenter.swift */,
+				F44C90A02429B29700458433 /* ListProtocols.swift */,
+				F44C90A42429B65A00458433 /* ListRepositore.swift */,
 			);
 			path = ListRepositores;
 			sourceTree = "<group>";
@@ -222,6 +322,7 @@
 				F4D2BBB22425B0C300BE8608 /* AutoLayout */,
 				F4D2BBCB2425C63A00BE8608 /* UIButton+Extension.swift */,
 				F4D2BBD02425D12E00BE8608 /* UINavigationController+Extension.swift */,
+				F44C909C2429A17B00458433 /* Image+Extension.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -286,8 +387,36 @@
 		F4D2BBCD2425CEC800BE8608 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F4D2BBE6242693C500BE8608 /* ListView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		F4D2BBDE2426832400BE8608 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F4D2BBDF2426833300BE8608 /* AppServiceUsers.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F4D2BBE324268EE400BE8608 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F4D2BBE424268EF300BE8608 /* User.swift */,
+				F44C90A22429B57200458433 /* AllUsers.swift */,
+				F4BB04B7244103F5005F2133 /* RepositoresUser.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F4D2BBE82426A7FD00BE8608 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				F4D2BBE92426A88E00BE8608 /* ListDataSource.swift */,
+				F4D2BBEB2426AA7B00BE8608 /* ListTableViewCell.swift */,
+			);
+			path = DataSource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -421,20 +550,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4BB04BA24411690005F2133 /* DetailUserRepositore.swift in Sources */,
+				F4D2BBE524268EF300BE8608 /* User.swift in Sources */,
+				F4D2BBEC2426AA7B00BE8608 /* ListTableViewCell.swift in Sources */,
 				F4D2BBC82425B93B00BE8608 /* UIFont+Extension.swift in Sources */,
+				F44C909F2429B28A00458433 /* ListPresenter.swift in Sources */,
 				F4D2BBA62425AA8B00BE8608 /* AppCoordinator.swift in Sources */,
+				F4D2BBDD24267F3200BE8608 /* ApiResult.swift in Sources */,
+				F44C909D2429A17B00458433 /* Image+Extension.swift in Sources */,
+				F4D2BBD3242676ED00BE8608 /* SearchPresenter.swift in Sources */,
+				F4BB04BE24422540005F2133 /* DetailUserCell.swift in Sources */,
 				F4D2BBBA2425B3EF00BE8608 /* Colors.swift in Sources */,
+				F4D2BBEA2426A88E00BE8608 /* ListDataSource.swift in Sources */,
+				F4BB04AA2440F8EA005F2133 /* DetailUserViewController.swift in Sources */,
 				F4D2BBC02425B59000BE8608 /* Strings+Default.swift in Sources */,
+				F4D2BBD52426770300BE8608 /* SearchProtocols.swift in Sources */,
 				F4D2BBCC2425C63A00BE8608 /* UIButton+Extension.swift in Sources */,
+				F4D2BBD724267B0400BE8608 /* SearchRepository.swift in Sources */,
+				F4BB04B62441034A005F2133 /* DetailUserDataSource.swift in Sources */,
+				F4BB04B12440F93A005F2133 /* DetailUserHeader.swift in Sources */,
+				F4D2BBDB24267EB700BE8608 /* NetworkProtocol.swift in Sources */,
+				F44C90A12429B29700458433 /* ListProtocols.swift in Sources */,
 				F4D2BBB02425AE4500BE8608 /* AppTabBarViewController.swift in Sources */,
+				F4D2BBE2242688CF00BE8608 /* AppLog.swift in Sources */,
 				F4D2BBBD2425B4FA00BE8608 /* Images.swift in Sources */,
+				F4D2BBE02426833300BE8608 /* AppServiceUsers.swift in Sources */,
 				F4D2BBB42425B0FC00BE8608 /* AutoLayout.swift in Sources */,
 				F4D2BBB72425B35F00BE8608 /* AppAssets.swift in Sources */,
+				F4BB04AC2440F8F8005F2133 /* DetailUserPresenter.swift in Sources */,
+				F4D2BBE7242693C500BE8608 /* ListView.swift in Sources */,
 				F4D2BBAE2425AD5800BE8608 /* InitialCoordinator.swift in Sources */,
 				F4D2BBC42425B7F300BE8608 /* SearchView.swift in Sources */,
+				F4BB04B32440F94D005F2133 /* DetailUserView.swift in Sources */,
+				F41CB61024307076002BA804 /* AppTabBarProtocols.swift in Sources */,
 				F4D2BB762425A97600BE8608 /* SearchViewController.swift in Sources */,
 				F4D2BBA82425AAAC00BE8608 /* CoordinatorProtocol.swift in Sources */,
+				F44C90A32429B57200458433 /* AllUsers.swift in Sources */,
+				F4BB04AE2440F907005F2133 /* DetailUserProtocols.swift in Sources */,
 				F4D2BB722425A97600BE8608 /* AppDelegate.swift in Sources */,
+				F44C90A52429B65A00458433 /* ListRepositore.swift in Sources */,
+				F4D2BBD924267D9B00BE8608 /* NetworkServiceProtocol.swift in Sources */,
+				F4BB04B8244103F5005F2133 /* RepositoresUser.swift in Sources */,
 				F4D2BBCF2425CED800BE8608 /* ListViewController.swift in Sources */,
 				F4D2BB742425A97600BE8608 /* SceneDelegate.swift in Sources */,
 				F4D2BBD12425D12E00BE8608 /* UINavigationController+Extension.swift in Sources */,

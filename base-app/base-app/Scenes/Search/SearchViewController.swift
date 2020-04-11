@@ -11,7 +11,8 @@ import UIKit
 class SearchViewController: UIViewController {
     
     private let contentView: SearchView
-    
+    private let  presenter: SearchViewPresenterProtocol = SearchPresenter()
+    weak var delegate: SearchViewControllerDelegate?
     init(contentView: SearchView = SearchView()) {
         self.contentView = contentView
         super.init(nibName: nil, bundle: nil)
@@ -24,6 +25,7 @@ class SearchViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        presenter.controller = self
     }
     
     override func loadView() {
@@ -31,9 +33,14 @@ class SearchViewController: UIViewController {
     }
     
     private func bindLayoutEvents() {
-        contentView.didTapSearch = { [weak self] in
-            print("Clicou")
+        contentView.didTapSearch = { [weak self] string in
+            self?.presenter.searchData(string)
         }
     }
 }
-
+// MARK: - SearchViewControllerProtocolType
+extension SearchViewController: SearchViewControllerProtocolType {
+    func userDetail(_ user: User) {
+        delegate?.wantsToUserDetail(user)
+    }
+}

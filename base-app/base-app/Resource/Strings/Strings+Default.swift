@@ -11,11 +11,14 @@ import Foundation
 public class AppStrings {
     private static let tableName = "Strings+Default"
     
-    // LocalizedString : SearchViewController
+    // MARK: - LocalizedString : SearchViewController
     public static let titleSearch = localizedString(forKey: "titleSearch")
     public static let subTitleSearch = localizedString(forKey: "subTitleSearch")
     public static let placeholderSearch = localizedString(forKey: "placeholderSearch")
     public static let buttonSearch = localizedString(forKey: "buttonSearch")
+    // MARK: - LocalizedString : ListViewController
+    public static let titleList = localizedString(forKey: "titleList")
+    public static let placeholderSearchUser = localizedString(forKey: "placeholderSearchUser")
 }
 
 private extension AppStrings {

@@ -5,7 +5,11 @@
   Created by Erick Kaique Da Silva on 20/03/20.
   Copyright © 2020 Erick Kaique Da Silva. All rights reserved.
 */
+// MARK: - Strings SearchViewController
 "titleSearch" = "GitHub";
 "subTitleSearch" = "by: developers";
 "placeholderSearch" = "Pesquise por um repo";
 "buttonSearch" = "Pesquisar";
+// MARK: - Strings ListViewController
+"titleList" = "Usuários";
+"placeholderSearchUser" = "Nome do usuário";
