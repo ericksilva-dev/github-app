@@ -12,6 +12,7 @@ enum AppServiceUsers: NetworkServiceProtocol {
     case requestUser(name: String)
     case requestAllUsers(idUser: Int)
     case requestRepos(username: String)
+    case teste
     
     var path: String {
         switch self {
@@ -21,12 +22,19 @@ enum AppServiceUsers: NetworkServiceProtocol {
             return "users?since=\(idUser)"
         case .requestRepos(let username):
             return "users/\(username)/repos"
+        case .teste:
+            return "challenge/"
         }
     }
     var apiMethod: ApiMethod {
         return .get
     }
     var headers: [String : String]? {
-        return nil
+        switch self {
+        case .teste:
+            return ["Content-type": "application/json"]
+        case .requestUser, .requestRepos, .requestAllUsers:
+            return nil
+        }
     }
 }

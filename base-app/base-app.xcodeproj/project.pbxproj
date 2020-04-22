@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F41CB61024307076002BA804 /* AppTabBarProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41CB60F24307076002BA804 /* AppTabBarProtocols.swift */; };
+		F433C51924496FE60077FFA4 /* Teste.swift in Sources */ = {isa = PBXBuildFile; fileRef = F433C51824496FE60077FFA4 /* Teste.swift */; };
 		F44C909D2429A17B00458433 /* Image+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44C909C2429A17B00458433 /* Image+Extension.swift */; };
 		F44C909F2429B28A00458433 /* ListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44C909E2429B28A00458433 /* ListPresenter.swift */; };
 		F44C90A12429B29700458433 /* ListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44C90A02429B29700458433 /* ListProtocols.swift */; };
@@ -77,6 +78,7 @@
 
 /* Begin PBXFileReference section */
 		F41CB60F24307076002BA804 /* AppTabBarProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarProtocols.swift; sourceTree = "<group>"; };
+		F433C51824496FE60077FFA4 /* Teste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teste.swift; sourceTree = "<group>"; };
 		F44C909C2429A17B00458433 /* Image+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extension.swift"; sourceTree = "<group>"; };
 		F44C909E2429B28A00458433 /* ListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPresenter.swift; sourceTree = "<group>"; };
 		F44C90A02429B29700458433 /* ListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListProtocols.swift; sourceTree = "<group>"; };
@@ -406,6 +408,7 @@
 				F4D2BBE424268EF300BE8608 /* User.swift */,
 				F44C90A22429B57200458433 /* AllUsers.swift */,
 				F4BB04B7244103F5005F2133 /* RepositoresUser.swift */,
+				F433C51824496FE60077FFA4 /* Teste.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -573,6 +576,7 @@
 				F44C90A12429B29700458433 /* ListProtocols.swift in Sources */,
 				F4D2BBB02425AE4500BE8608 /* AppTabBarViewController.swift in Sources */,
 				F4D2BBE2242688CF00BE8608 /* AppLog.swift in Sources */,
+				F433C51924496FE60077FFA4 /* Teste.swift in Sources */,
 				F4D2BBBD2425B4FA00BE8608 /* Images.swift in Sources */,
 				F4D2BBE02426833300BE8608 /* AppServiceUsers.swift in Sources */,
 				F4D2BBB42425B0FC00BE8608 /* AutoLayout.swift in Sources */,
@@ -761,6 +765,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7ZX4RPFXFH;
 				INFOPLIST_FILE = "base-app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -779,6 +784,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7ZX4RPFXFH;
 				INFOPLIST_FILE = "base-app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

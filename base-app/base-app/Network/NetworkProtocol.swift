@@ -14,7 +14,8 @@ protocol NetworkProtocol {
 
 public class Network: NetworkProtocol {
     
-    private let baseUrl = "https://api.github.com"
+//    private let baseUrl = "https://api.github.com"
+    private let baseUrl = "https://cheesecakelabs.com/"
     private let logApp: AppLogProtocol = AppLog()
     
     var sessionConfig: URLSessionConfiguration = {
@@ -43,8 +44,15 @@ public class Network: NetworkProtocol {
             logApp.logAppDebug(statusCode: nil, message: "ERROR: the placed url is not valid")
             return nil
         }
+        
+        let allHeaders = service.headers ?? [:]
+        
         var urlRequest = URLRequest(url: url)
         urlRequest.httpMethod = service.apiMethod.rawValue
+        
+        for header in allHeaders {
+            urlRequest.setValue(header.value, forHTTPHeaderField: header.key)
+        }
         
         return urlRequest
     }

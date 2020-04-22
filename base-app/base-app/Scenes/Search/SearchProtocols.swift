@@ -6,25 +6,13 @@
 //  Copyright © 2020 Erick Kaique Da Silva. All rights reserved.
 //
 
-typealias UserCallBack = (Result<User, ErrorApi>) -> Void
+import Foundation
 
-protocol SearchViewPresenterProtocol: class {
-    var controller: SearchViewControllerProtocolType? { get set }
-    func searchData(_ data: String?)
+protocol SearchPresenterType: class {
+    var controller: SearchViewControllerType? { get set }
+    func searchUser(username: String)
 }
 
-protocol SearchViewControllerProtocolType: class {
-    func userDetail(_ user: User)
-}
-
-protocol SearchViewProtocol {
-    
-}
-
-protocol SearchViewControllerDelegate: class {
-    func wantsToUserDetail(_ user: User)
-}
-
-protocol SearchRepositoryProtocol {
-    func requestUser(name: String, completion: @escaping UserCallBack)
+protocol SearchViewControllerType: class {
+    func show()
 }

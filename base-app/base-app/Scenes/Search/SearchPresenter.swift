@@ -6,33 +6,14 @@
 //  Copyright © 2020 Erick Kaique Da Silva. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-class SearchPresenter: SearchViewPresenterProtocol {
+class SearchPresenter: SearchPresenterType {
+   
+    weak var controller: SearchViewControllerType?
     
-    var controller: SearchViewControllerProtocolType?
-    let repository: SearchRepositoryProtocol
     
-    init(repository: SearchRepositoryProtocol = SearchRepository()) {
-        self.repository = repository
-    }
-    
-    func searchData(_ data: String?) {
-        guard let dataString = data, !dataString.isEmpty else {
-            print("Error no  data")
-            return
-        }
-        requestUser(data: dataString)
-    }
-    
-    func requestUser(data: String) {
-        repository.requestUser(name: data) { (result) in
-            switch result {
-            case .success(let user):
-                self.controller?.userDetail(user)
-            case .failure(let error):
-                print("ERROR: \(error)")
-            }
-        }
+    func searchUser(username: String) {
+        
     }
 }
